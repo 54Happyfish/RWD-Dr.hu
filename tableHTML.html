@@ -32,18 +32,36 @@
         <input type="radio" name="blood">O
         <br>
         <!-- 多選 -->
+        <!-- value 傳送資料的值 -->
+        <!-- disabled  不讓點選 -->
+        <!-- JS有onchange觸發事件  可設定點選數量  到達一定數量時其他就不能點選了（disabled ） -->
         <label for="">興趣：</label>
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="1">
         逛街
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="2">
         旅遊
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="3" disabled>
         看書
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="4">
         爬山
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="5">
         健身
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="6">
         瑜珈
-        <input type="checkbox" name="interest" id="">
+        <input type="checkbox" name="interest" id="" value="7">
         聽音樂
+        <br>
+        <!-- 日期 -->
+        <!-- 不同預覽器有些不能用 -->
+        <label for="">生日:</label>
+        <input type="date"><br>
+        <label for="">生日:</label>
+        <input type="datetime"><br>
+        <label for="">生日</label>
+        <input type="datetime-local"><br>
+        <label for="">月</label>
+        <input type="month" name="" id=""><br>
+        <label for="">時間</label>
+        <input type="time" name="" id=""><br>
+        <label for="">週</label><br>
+        <input type="week" name="" id=""><br>
